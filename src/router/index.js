@@ -10,6 +10,22 @@ const routes=[
     {
         path: '/button',
         component: () => import('@/views/basic/ButtonPage.vue')
+    },
+    {
+        path: '/card',
+        component: () => import('@/views/basic/CardPage.vue')
+    },
+    {
+        path: '/container',
+        component: () => import('@/views/basic/ContainerPage.vue')
+    },
+    {
+        path: '/menu',
+        component: () => import('@/views/basic/MenuPage.vue')
+    },
+    {
+        path: '/layout',
+        component: () => import('@/views/basic/LayoutPage.vue')
     }
 ]
 
