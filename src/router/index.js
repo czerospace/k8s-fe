@@ -26,6 +26,70 @@ const routes=[
     {
         path: '/layout',
         component: () => import('@/views/basic/LayoutPage.vue')
+    },
+    {
+        path: '/form',
+        component: () => import('@/views/form/FormPage.vue')
+    },
+    {
+        path: '/validate',
+        component: () => import('@/views/form/ValidatePage.vue')
+    },
+    {
+        path: '/reset',
+        component: () => import('@/views/form/ResetPage.vue')
+    },
+    {
+        path: '/custom-validate',
+        component: () => import('@/views/form/CustomValidate.vue')
+    },
+    {
+        path: '/upload',
+        component: () => import('@/views/form/UploadPage.vue')
+    },
+    {
+        path: '/table',
+        component: () => import('@/views/table/BasicPage.vue')
+    },
+    {
+        path: '/selection',
+        component: () => import('@/views/table/SelectionPage.vue')
+    },
+    {
+        path: '/multi-selection',
+        component: () => import('@/views/table/MultiSelection.vue')
+    },
+    {
+        path: '/sortable',
+        component: () => import('@/views/table/SortablePage.vue')
+    },
+    {
+        path: '/search',
+        component: () => import('@/views/table/SearchPage.vue')
+    },
+    {
+        path: '/custom-column',
+        component: () => import('@/views/table/CustomColumn.vue')
+    },
+    {
+        path: '/pagination',
+        component: () => import('@/views/table/PaginationPage.vue')
+    },
+    {
+        path: '/alert',
+        component: () => import('@/views/feedback/AlertPage.vue')
+    },
+    {
+        path: '/message',
+        component: () => import('@/views/feedback/MessagePage.vue')
+    },
+    {
+        path: '/dialog',
+        component: () => import('@/views/feedback/DialogPage.vue')
+    },
+    {
+        path: '/confirm',
+        component: () => import('@/views/feedback/PopconfirmPage.vue')
     }
 ]
 

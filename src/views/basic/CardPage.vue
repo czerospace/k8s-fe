@@ -1,5 +1,5 @@
 <template>
-  <el-card class="box-card" style="width: 200px;" shadow="never">
+  <el-card class="box-card" style="width: 200px;" shadow="never" :body-style="{padding:'0px'}">
     <template #header>
       <div class="card-header">
         <span>Card name</span>
